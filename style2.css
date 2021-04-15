@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #555;
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  position: relative;
+  height: 100vh;
+  font-weight: 400;
+}
+.header {
+  background: black;
+  padding: 18px 24px;
+  font-weight: 700;
+  color: #ffffff;
+  display: flow-root;
+  text-align: center;
+  font-size: 35px;
+}
+.a:link,a:visited {
+  color: white;
+}
+.tag {
+  background-color: rgb(20, 20, 20);
+  width: 150px;
+  padding: 5px;
+  margin: 2px;
+  font-size: 20px;
+  margin-left: 0px;
+  color: rgb(238, 233, 227);
+  text-align: center;
+}
+
+#myInput {
+  background-image: url("/css/searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+#myTable th {
+  background-color: black;
+  color: white;
+}
+
+#myTable tr.header,
+#myTable tr:hover {
+  background-color: #e7989f;
+}
